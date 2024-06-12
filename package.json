@@ -1,0 +1,29 @@
+{
+  "name": "lr-server",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "NODE_ENV=production node index",
+    "dev": "nodemon index"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "express-mongo-sanitize": "^2.2.0",
+    "helmet": "^7.1.0",
+    "http-status": "^1.7.4",
+    "joi": "^17.13.1",
+    "mongoose": "^8.4.1",
+    "morgan": "^1.10.0",
+    "xss-clean": "^0.1.4"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.3"
+  }
+}
